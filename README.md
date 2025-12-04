@@ -50,10 +50,12 @@ Tabel ini berfungsi untuk menyimpan status absen, memiliki beberapa atribut:
 --- 
 
 ## Alur 
-1. User membuka website -> tampilan halaman utama menampilkan list pembalap.
+1. User membuka website -> tampilan halaman utama menampilkan list absensi.
 2. User dapat memilih menu:
-    - pembalap
-    - sirkuit
+    - Siswa
+    - Kelas
+    - Status Absen
+    - Absensi
 3. Pada tiap menu, user dapat melakukan CRUD:
    - create (tambah data)
    - read (menampilkan semua data)
@@ -63,7 +65,8 @@ Tabel ini berfungsi untuk menyimpan status absen, memiliki beberapa atribut:
 
 
 
-https://github.com/user-attachments/assets/c6a7ca2c-f7cc-4df5-8927-d16bb4f11143
+https://github.com/user-attachments/assets/3971b3de-818b-4191-b1d7-e3358c7d0961
+
 
 
 
