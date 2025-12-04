@@ -10,19 +10,24 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP10 pada mata kuli
 
 ### Database
 Database yang saya buat memiliki tema Absensi untuk Siswa, memiliki beberapa tabel sebagai berikut :
-- Absensi -> Tabel ini berfungsi menyimpan data absensi untuk setiap siswa, memiliki beberapa atribut
+## Absensi 
+Tabel ini berfungsi menyimpan data absensi untuk setiap siswa, memiliki beberapa atribut
   - `id_absen` -> kode unik
   -  `id_siswa` -> foreign key dari tabel siswa
   -  `id_status` -> foreign key dari tabel status_absen
   -  `id_kelas` -> foreign key dari tabel kelas
   -   `tanggal` -> tanggal absensi.
-- Kelas -> Tabel ini berfungsi untuk menyimpan nama kelas, memiliki beberapa atribut :
+## Kelas 
+Tabel ini berfungsi untuk menyimpan nama kelas, memiliki beberapa atribut :
   - `id_kelas` -> kode unik setiap kelas
   -  `nama_kelas` -> untuk nama kelas (X IPA 1, X IPS 2, DLL).
-- Siswa -> Tabel ini berfungsi untuk menyimpan nama siswa, memiliki beberapa atribut :
+## Siswa 
+Tabel ini berfungsi untuk menyimpan nama siswa, memiliki beberapa atribut :
   - `id_siswa` -> kode unik untuk siswa
   - `nama` -> untuk nama siswa.
-- status_absen -> Tabel ini berfungsi untuk menyimpan status absen, memiliki beberapa atribut:     -`id_status` -> kode unik untuk status_absen
+## status_absen 
+Tabel ini berfungsi untuk menyimpan status absen, memiliki beberapa atribut:    
+  -`id_status` -> kode unik untuk status_absen
   -`keterangan` -> untuk keterangan absen (Hadir, izin, sakit, Alpa)
   
 ### Model
