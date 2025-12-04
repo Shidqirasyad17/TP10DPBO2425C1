@@ -10,7 +10,7 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP10 pada mata kuli
 
 ### Database
 Database yang saya buat memiliki tema Absensi untuk Siswa, memiliki beberapa tabel sebagai berikut :
-#### Absensi 
+#### `Absensi` 
 Tabel ini berfungsi menyimpan data absensi untuk setiap siswa, memiliki beberapa atribut
   - `id_absen` -> kode unik
   -  `id_siswa` -> foreign key dari tabel siswa
