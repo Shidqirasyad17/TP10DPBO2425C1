@@ -29,7 +29,9 @@ Tabel ini berfungsi untuk menyimpan nama siswa, memiliki beberapa atribut :
 Tabel ini berfungsi untuk menyimpan status absen, memiliki beberapa atribut:    
   - `id_status` -> kode unik untuk status_absen
   - `keterangan` -> untuk keterangan absen (Hadir, izin, sakit, Alpa)
-  
+
+--- 
+
 ### Model
 - Absensi.php -> menyimpan logika CRUD untuk kelas `Absensi`
 - Kelas.php -> menyimpan logika CRUD untuk kelas `kelas`
@@ -45,7 +47,7 @@ Tabel ini berfungsi untuk menyimpan status absen, memiliki beberapa atribut:
 - SiswaViewModel.php -> interface methode CRUD.
 - StatusAbsenViewModel.php ->
   
-
+--- 
 
 ## Alur 
 1. User membuka website -> tampilan halaman utama menampilkan list pembalap.
