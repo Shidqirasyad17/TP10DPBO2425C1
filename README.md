@@ -17,15 +17,15 @@ Tabel ini berfungsi menyimpan data absensi untuk setiap siswa, memiliki beberapa
   -  `id_status` -> foreign key dari tabel status_absen
   -  `id_kelas` -> foreign key dari tabel kelas
   -   `tanggal` -> tanggal absensi.
-#### Kelas 
+#### `Kelas` 
 Tabel ini berfungsi untuk menyimpan nama kelas, memiliki beberapa atribut :
   - `id_kelas` -> kode unik setiap kelas
   -  `nama_kelas` -> untuk nama kelas (X IPA 1, X IPS 2, DLL).
-#### Siswa 
+#### `Siswa` 
 Tabel ini berfungsi untuk menyimpan nama siswa, memiliki beberapa atribut :
   - `id_siswa` -> kode unik untuk siswa
   - `nama` -> untuk nama siswa.
-#### status_absen 
+#### `status_absen` 
 Tabel ini berfungsi untuk menyimpan status absen, memiliki beberapa atribut:    
   - `id_status` -> kode unik untuk status_absen
   - `keterangan` -> untuk keterangan absen (Hadir, izin, sakit, Alpa)
