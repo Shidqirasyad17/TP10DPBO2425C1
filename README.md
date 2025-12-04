@@ -30,8 +30,6 @@ Tabel ini berfungsi untuk menyimpan status absen, memiliki beberapa atribut:
   - `id_status` -> kode unik untuk status_absen
   - `keterangan` -> untuk keterangan absen (Hadir, izin, sakit, Alpa)
 
---- 
-
 ### Model
 - Absensi.php -> menyimpan logika CRUD untuk kelas `Absensi`
 - Kelas.php -> menyimpan logika CRUD untuk kelas `kelas`
