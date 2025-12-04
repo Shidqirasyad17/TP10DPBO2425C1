@@ -8,7 +8,7 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP10 pada mata kuli
 
 ## Desain Program
 
-`### Database`
+### Database
 Database yang saya buat memiliki tema Absensi untuk Siswa, memiliki beberapa tabel sebagai berikut :
 #### Absensi 
 Tabel ini berfungsi menyimpan data absensi untuk setiap siswa, memiliki beberapa atribut
@@ -30,20 +30,20 @@ Tabel ini berfungsi untuk menyimpan status absen, memiliki beberapa atribut:
   - `id_status` -> kode unik untuk status_absen
   - `keterangan` -> untuk keterangan absen (Hadir, izin, sakit, Alpa)
 
-`### Model`
+### Model
 - Absensi.php -> menyimpan logika CRUD untuk kelas `Absensi`
 - Kelas.php -> menyimpan logika CRUD untuk kelas `kelas`
 - Siswa.php -> menyimpan logika CRUD untuk kelas `siswa`
 - Status_absen.php -> menyimpan logika CRUD untuk kelas `status_absen`
 
-`### Views` 
+### Views 
 Berisi tampilan (form dan list) untuk:
 - Siswa
 - Kelas
 - Status Absen
 - Absensi
   
-`### ViewModel`
+### ViewModel
 - AbsensiViewModel.php -> menangani operasi data absensi
 - KelasViewModel.php -> menangani operasi data kelas
 - SiswaViewModel.php -> menangani operasi data siswa
@@ -63,9 +63,9 @@ Berisi tampilan (form dan list) untuk:
    - read (menampilkan semua data)
    - update (edit data)
    - delete (hapus data)
+
+---
 # Dokumentasi
-
-
 
 https://github.com/user-attachments/assets/3971b3de-818b-4191-b1d7-e3358c7d0961
 
