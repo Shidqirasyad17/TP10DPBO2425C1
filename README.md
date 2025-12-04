@@ -39,13 +39,17 @@ Tabel ini berfungsi untuk menyimpan status absen, memiliki beberapa atribut:
 - Status_absen.php -> menyimpan logika CRUD untuk kelas `status_absen`
 
 ### Views 
-- Berisi form dan list untuk tampilan setiap kelas
+Berisi tampilan (form dan list) untuk:
+- Siswa
+- Kelas
+- Status Absen
+- Absensi
   
 ### ViewModel
-- AbsensiViewModel.php -> menghubungkan pembalap View dan model
-- KelasViewModel.php -> menghubungkan sirkuit view dan model
-- SiswaViewModel.php -> interface methode CRUD.
-- StatusAbsenViewModel.php ->
+- AbsensiViewModel.php -> menangani operasi data absensi
+- KelasViewModel.php -> menangani operasi data kelas
+- SiswaViewModel.php -> menangani operasi data siswa
+- StatusAbsenViewModel.php -> menangani operasi status absen
   
 --- 
 
