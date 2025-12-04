@@ -1,6 +1,6 @@
 <?php require_once 'views/template/header.php'; ?>
 
-<h2 class="mt-4">Daftar Status AbsenAb</h2>
+<h2 class="mt-4">Daftar Status Absen</h2>
 
 <a href="index.php?entity=status&action=add" class="btn btn-primary">Add Status</a>
 

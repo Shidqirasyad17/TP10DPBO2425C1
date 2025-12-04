@@ -78,14 +78,14 @@ if ($entity === 'kelas') {
             break;
 
         case 'save':
-            $nama_kelas = $_POST['name'];
+            $nama_kelas = $_POST['nama_kelas'];
             $kelasVM->addKelas($nama_kelas);
             header("Location: index.php?entity=kelas&action=list");
             break;
 
         case 'update':
             $id = $_GET['id'];
-            $nama_kelas = $_POST['name'];
+            $nama_kelas = $_POST['nama_kelas'];
             $kelasVM->updateKelas($id, $nama_kelas);
             header("Location: index.php?entity=kelas&action=list");
             break;
